@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="tituloET_margin_top">30dp</dimen>
+    <dimen name="ET_margin_top">15dp</dimen>
+    <dimen name="size_fields">370dp</dimen>
+    <dimen name="ET_margin_left">10dp</dimen>
+</resources>

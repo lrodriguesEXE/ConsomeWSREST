@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EdicaoActivity">
+
+    <EditText
+        android:id="@+id/tituloEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:hint="@string/tituloEditText"
+        android:layout_marginTop="@dimen/tituloET_margin_top"
+        />
+
+    <EditText
+        android:id="@+id/autorEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:hint="@string/autorEditText"
+        android:layout_marginTop="@dimen/ET_margin_top"
+        />
+
+    <EditText
+        android:id="@+id/paginasEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/paginasEditText"
+        android:layout_marginTop="@dimen/ET_margin_top"
+        />
+
+    <EditText
+        android:id="@+id/edicaoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/edicaoEditText"
+        android:layout_marginTop="@dimen/ET_margin_top"
+        />
+
+    <Button
+        android:id="@+id/salvaLivroButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salva_livro_button"
+        android:layout_marginTop="@dimen/ET_margin_top"
+        />
+</LinearLayout>
